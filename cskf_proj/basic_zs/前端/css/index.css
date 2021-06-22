@@ -1,0 +1,208 @@
+/*属性选择器*/
+body{
+    background-image: url("../image/bj.jpg");
+    background-repeat: repeat-y;
+    /*background-position:center;*/
+}
+
+.top_menu{
+    height:100px;
+    /*background:#ee82ee;*/
+    background:rgba(238, 130, 238,0.6);
+}
+/* 类选择器*/
+.title{
+    width:350px;
+    color:#fff;
+    font: normal 25px/100px 微软雅黑;
+    text-align:center;
+    float:left;
+}
+
+.menu_list{
+    height:100px;
+    width:1000px;
+    float:left;
+}
+
+.menu_list ul{
+    margin: 0;
+}
+
+/* 层级选择器*/
+.menu_list li {
+    width:200px;
+    height:100px;
+    float:left;
+    list-style: none;
+    font: normal 22px/100px '微软雅黑';
+    color: #fafafa;
+    text-align: center;
+}
+
+/*鼠标悬浮事件*/
+.menu_list li:hover{
+    background: #93279c;
+}
+
+.top_user{
+    float: right;
+    font: normal 14px/40px '微软雅黑';
+    margin: 50px 50px;
+}
+
+
+
+ /*id选择器 # id*/
+ /*组选择器 多个选择器一起选择*/
+/*盒子模型* 有些元素自带外边距，如不要需要手动去掉 */
+
+/*left菜单样式*/
+.left_menu{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    background: rgba(122, 10, 234, 0.2);
+    width: 300px;
+    height: 820px;
+}
+.content{
+    width: 1500px;
+    height: 820px;
+    position: absolute;
+    left: 320px;
+    top: 120px;
+    background: rgba(166, 183, 234, 0.2);
+}
+.left_title{
+    width: 100%;
+    height: 100px;
+    float: left;
+    font: normal 28px/100px '微软雅黑';
+    color: #fafafa;
+    text-indent: 50px;  /*缩进50px*/
+    background: rgba(234, 117, 214, 0.48)
+}
+.left_menu_list h3{
+    background-image: url("../image/xiala.png");
+    background-repeat: no-repeat;
+    background-position: 235px;
+    background-color: rgba(122, 10, 234, 0.2);
+    width: 100%;
+    height: 60px;
+    float: left;
+    font: normal 22px/60px '微软雅黑';
+    color: rgba(0, 0, 0, 0.4);
+    text-indent: 50px;
+    border: solid 1px #9297a2;
+}
+.left_menu_list a{
+    float: left;
+    font: normal 18px/40px '微软雅黑';
+    color: rgba(0, 0, 0, 0.4);
+    text-indent: 60px;
+    width: 100%;
+}
+.project_info{
+    width: 300px;
+    height: 230px;
+    border: solid 1px #9297a2;
+    float: left;
+    margin: 25px;
+    text-align: center;
+}
+.project_info img{
+    margin-top: 75px;
+}
+.pro_title{
+    width: 100%;
+    height: 50px;
+    font: normal 28px/50px '微软雅黑';
+    text-align: center;
+    background: rgba(166, 183, 234, 0.2);
+}
+.project_info p{
+    font:normal 18px/35px '微软雅黑' ;
+
+}
+.project_info a{
+    font:normal 18px/35px '微软雅黑' ;
+    color: #ffffff;
+    background: rgba(166, 183, 234, 0.2)
+}
+
+
+/*弹框样式*/
+.alter_back{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.alter_add{
+    position: fixed;
+    left: 36%;
+    top: 100px;
+    width: 550px;
+    height: 600px;
+    background-color: #ffffff;
+    border: solid 1px #9297a2;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+.add_title{
+    font: bold 24px/30px '微软雅黑';
+    color: #0033cc;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.alter_quite{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.alter_input{
+    width: 100%;
+    height: 60px;
+    font: normal 22px/60px '微软雅黑';
+    color: #0033cc;
+}
+.alter_input label{
+    width: 100%;
+    height: 60px;
+    font: normal 22px/60px '微软雅黑';
+    color: #0033cc;
+}
+.alter_desc{
+     font: normal 22px/50px '微软雅黑';
+     color: #0033cc;
+}
+.alter_desc textarea{
+    margin: 0 9%;
+    width: 90%;
+    height: 150px;
+    border: solid 1px #9297a2;
+    border-radius: 5px;
+}
+.pro_submit{
+    text-align: center;
+}
+.tj{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    background: #0033cc;
+    font: normal 22px/50px '微软雅黑';
+    color: #ffffff;
+    border-radius: 10px;
+    border: solid 1px #0033cc;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<body>
+    {% for project in p %}
+    <div>序号：{{loop.index}}, 项目名称：{{ project['name'] }}, 接口数量：{{ project['api_num'] }}, 创建时间：{{ project['creat_time'] }}</div>
+    {% endfor %}
+</body>
+</html>
